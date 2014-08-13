@@ -16,35 +16,35 @@ Compilation and Usage
 * Configure
 
 
-    cd FUSE4MIC
-    ./mic-configure.sh
+        cd FUSE4MIC
+        ./mic-configure.sh
 
 * Compling
 
 
-    cd FUSE4MIC
-    make
+        cd FUSE4MIC
+        make
 
 * Packaging
 
 
-    mkdir PATH-WHATEVER/fuse-mic
-    make install --prefix=PATH-WHATEVER/fuse-mic
+        mkdir PATH-WHATEVER/fuse-mic
+        make install --prefix=PATH-WHATEVER/fuse-mic
     
 * Uploading
  
 
-    mkdir PATH-WHATEVER/fuse-mic
-    sudo scp lib/* micX:/lib64
-    sudo scp bin/* micX:/bin
+        mkdir PATH-WHATEVER/fuse-mic
+        sudo scp lib/* micX:/lib64
+        sudo scp bin/* micX:/bin
 
 * Running
 
 
-    scp example/hello micX:
-    ssh micX
-    mkdir hello
-    ./hello hello
+        scp example/hello micX:
+        ssh micX
+        mkdir hello
+        ./hello hello
 
 Contact
 -----
