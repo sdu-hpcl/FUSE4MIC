@@ -22,19 +22,18 @@ Compilation and Usage
 * Compling
 
 
-        cd FUSE4MIC
         make
 
 * Packaging
 
 
-        mkdir PATH-WHATEVER/fuse-mic
-        make install --prefix=PATH-WHATEVER/fuse-mic
+        mkdir /PATH-WHATEVER/fuse-mic
+        make install prefix=/PATH-WHATEVER/fuse-mic
     
 * Uploading
  
 
-        mkdir PATH-WHATEVER/fuse-mic
+        cd /PATH-WHATEVER/fuse-mic
         sudo scp lib/* micX:/lib64
         sudo scp bin/* micX:/bin
 
