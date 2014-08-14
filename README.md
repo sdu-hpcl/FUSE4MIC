@@ -13,6 +13,8 @@ contains a configured Makefile to make it easy to compile the components.
 Compilation and Usage
 ------
 
+If you decided to use a SNAPSHOT, this version is available for download [here](https://github.com/sdu-hpcl/FUSE4MIC/releases/download/0.0/fuse4mic.zip), and go to the uploading step after unzipping.
+
 * Configure
 
 
